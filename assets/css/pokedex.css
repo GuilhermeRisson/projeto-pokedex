@@ -6,6 +6,28 @@
     list-style: none;
 }
 
+.pokemonHeader .headerPoke{
+    font-size: 2rem;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.pokemonHeader .headerPoke span{
+    margin-left: 0.125em;
+    white-space: nowrap;
+}
+
+
+body{
+    background-image: url('../imgs/body_bg.png');
+}
+
+.content {
+    background-image: url('../imgs/container_bg.png');
+}
+
+
 .normal {
     background-color: #a6a877;
 }

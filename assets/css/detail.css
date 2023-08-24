@@ -1,0 +1,62 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../imgs/body_bg.png');
+}
+
+.container {
+    background-image: url('../imgs/container_bg.png');
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    max-width: 1280px;
+    overflow: hidden;
+    position: relative;
+}
+
+.pokemonHeader .headerPoke{
+    padding-top: 90px;
+    font-size: 2rem;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.pokemonHeader .headerPoke span{
+    color: #616161;
+    margin-left: 0.125em;
+    white-space: nowrap;
+}
+
+@media screen and (min-width: 380px) {
+    .infoPoke {
+        grid-template-columns: 1fr;
+    }
+}
+
+.infoPoke {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding: 1em 0;
+    list-style: none;
+}
+
+.infoPoke .pokeImg img{
+    background-color: white;
+    /* max-width: 100%; */
+    width: 60%;
+}
+
+.pokeImg{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
